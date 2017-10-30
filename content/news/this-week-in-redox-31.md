@@ -38,7 +38,7 @@ As mentioned before, **ransid**, our backend for terminal emulators got some lov
 
 Stopping on the utilities station we have: **userutils**, **coreutils** and **extrautils** getting `man` pages and **netutils**'s `dhcpd` gaining the ability to broadcast packets.
 
-And last but never least [@sajattack](https://github.com/sajattack) added some networking headers to our fork of the **newlib** C standard library (Which we implement in Rust :).
+Last but never least [@sajattack](https://github.com/sajattack) added some networking headers to our fork of the **newlib** C standard library (Which we implement in Rust :) and did some nice additions/updates to the book, particularly the documentation of the Redox components. Go give it a look, feedback is appreciated!
 
 Looking forward to a next issue potentially talking about `rustc` and `cargo` running on Redox <3.
 
@@ -169,6 +169,15 @@ Network Utilities for Redox.
 A fork of newlib from git://sourceware.org/git/newlib-cygwin.git with Redox support.
 
 - [@sajattack](https://github.com/sajattack) Added some networking headers. Details [here](https://github.com/redox-os/newlib/pull/65).
+
+## Book
+
+The Redox book
+
+- [@sajattack](https://github.com/sajattack) Documented the components of redox. Details [here](https://github.com/redox-os/book/pull/109).
+- [@sajattack](https://github.com/sajattack) Added instructions for installing the toolchain. Details [here](https://github.com/redox-os/book/pull/110).
+- [@sajattack](https://github.com/sajattack) Linked to `ion` manual. Details [here](https://github.com/redox-os/book/commit/d96e43602107731593b220519ab46ef0d0ff046a).
+- [@nwallace](https://github.com/nwallace) Updated outdated URLs. Details [here](https://github.com/redox-os/book/pull/111).
 
 # Handy links
 
